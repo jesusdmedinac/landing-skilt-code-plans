@@ -92,14 +92,15 @@ export const PricingCard = ({ plan }: PricingCardProps) => {
       </CardHeader>
 
       <CardContent className="space-y-6">
-        <Button 
-          className="w-full" 
-          variant={isPopular ? "premium" : isEnterprise ? "enterprise" : "default"}
-          size="lg"
-        >
-          {isEnterprise ? 'Contactar Ventas' : 'Comenzar Ahora'}
+        <a href="https://wa.me/593964222040" target="_blank" rel="noopener noreferrer">
+          <Button 
+            className="w-full" 
+            variant={isPopular ? "premium" : isEnterprise ? "enterprise" : "default"}
+            size="lg"
+          >
+            {isEnterprise ? 'Contactar Ventas' : 'Comenzar Ahora'}
         </Button>
-
+        </a>
         <div className="space-y-3">
           <h4 className="font-semibold text-sm uppercase tracking-wider text-muted-foreground">
             Características incluidas
