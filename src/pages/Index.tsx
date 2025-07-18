@@ -108,25 +108,29 @@ const Index = () => {
             Coding Challenges Platform
           </Badge>
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-            Skilt <span className="text-primary-glow">Coding</span> Challenges
+            Skilt <span className="text-amber-300">Coding</span> Challenges
           </h1>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
             Optimiza tu proceso de selección técnica con evaluaciones personalizadas 
             que identifican el talento real de tus candidatos
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="secondary" size="xl" className="animate-slide-up">
-              Solicitar Demo Gratuita
-            </Button>
-            <Button variant="outline" size="xl" className="border-white/20 text-white hover:bg-white/10">
-              Ver Planes
-            </Button>
+            <a href="https://wa.me/593964222040" target="_blank" rel="noopener noreferrer">
+              <Button variant="premium" size="xl">
+                Solicitar Demo Gratuita
+              </Button>
+            </a>
+            <a href="#pricing">
+              <Button size="xl">
+                Ver Planes
+              </Button>
+            </a>
           </div>
         </div>
       </section>
 
       {/* Pricing Section */}
-      <section className="py-20 px-4">
+      <section id="pricing" className="py-20 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Planes y Precios</h2>
