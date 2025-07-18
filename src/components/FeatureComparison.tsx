@@ -35,8 +35,8 @@ const features: Feature[] = [
     name: "Soporte por email",
     starter: false,
     professional: true,
-    premium: false,
-    enterprise: false
+    premium: true,
+    enterprise: true
   },
   {
     name: "Evaluaciones ilimitadas",
@@ -64,7 +64,7 @@ const features: Feature[] = [
     starter: false,
     professional: false,
     premium: true,
-    enterprise: false
+    enterprise: true
   },
   {
     name: "Editor de retos personalizado",
