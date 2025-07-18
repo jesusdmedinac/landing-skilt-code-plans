@@ -121,7 +121,7 @@ const Index = () => {
               </Button>
             </a>
             <a href="#pricing">
-              <Button size="xl">
+              <Button size="xl" variant="secondary">
                 Ver Planes
               </Button>
             </a>
@@ -183,12 +183,16 @@ const Index = () => {
             Empieza hoy mismo con Skilt Coding Challenges y descubre el verdadero potencial de tus candidatos
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="secondary" size="xl">
-              Comenzar Gratis
-            </Button>
-            <Button variant="outline" size="xl" className="border-white/20 text-white hover:bg-white/10">
-              Hablar con Ventas
-            </Button>
+            <a href="https://wa.me/593964222040" target="_blank" rel="noopener noreferrer">
+              <Button variant="premium" size="xl">
+                Solicitar Demo Gratuita
+              </Button>
+            </a>
+            <a href="#pricing">
+              <Button size="xl" variant="secondary">
+                Ver Planes
+              </Button>
+            </a>
           </div>
         </div>
       </section>
